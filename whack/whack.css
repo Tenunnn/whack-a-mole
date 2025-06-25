@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background: url(background.png);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+.hole {
+  background-image: url(hole.png);
+  width: 200px;
+  height: 100px;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+#game-container {
+  width: 800px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 780px;
+  bottom: 200px;
+  gap: 8px;
+}
+.mole {
+  background-image: url(mole.png);
+  height: 90px;
+  width: 90px;
+  display: flex;
+  position: absolute;
+  left: 55px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: url(cursor.png), pointer;
+}
+.header {
+  border: solid 4px black;
+  height: 250px;
+  width: 500px;
+  border-radius: 50px;
+  position: absolute;
+  left: 200px;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#score {
+  font-size: 40px;
+}
+#time {
+  font-size: 40px;
+}
+#Restart {
+  height: 40px;
+  width: 120px;
+  background-color: yellow;
+  border-radius: 20px;
+  border: solid 7px black;
+  position: absolute;
+  left: 950px;
+  top: 1100px;
+}
+#Start {
+  height: 40px;
+  width: 120px;
+  background-color: black;
+  color: yellow;
+  border: solid 7px yellow;
+  border-radius: 20px;
+  position: absolute;
+  left: 1150px;
+  top: 1100px;
+}
