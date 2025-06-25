@@ -68,7 +68,7 @@ function timer() {
       CurrentIndex = null;
     }
 
-    alert("Game Over Bro! Your Score: " + scoreValue);
+    alert("Game Over! Your Score: " + scoreValue);
   }
 
   timeDisplay.textContent = "Time: " + timeValue;
